@@ -1,0 +1,8 @@
+{
+  "name": "Alister's Database Class",
+  "description": "Easy to use database class",
+  "license": "MIT",
+  "require": {
+    "php": ">=7.1.0"
+  }
+}
