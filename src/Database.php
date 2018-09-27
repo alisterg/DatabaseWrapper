@@ -114,6 +114,15 @@ final class Database
     }
 
     /**
+     * Get row count of the last query
+     * @return int|null
+     */
+    public function rowCount()
+    {
+        return isset($this->stmt) ? $this->stmt->rowCount() : null;
+    }
+
+    /**
      * So we can't clone the singleton.
      * @throws \Exception
      */
